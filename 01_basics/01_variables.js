@@ -9,9 +9,9 @@ accountPassword="VWXYZ@123"
 accountCity="Mumbai" // in this way without mentionig let ,var and const we can declare varioable 
 // in javascript // it is not recommended
 let accountState; // no value is unsigned // so prints undefinec
-console.log(accountId);
+// console.log(accountId);
 
-console.table([accountId,accountEmail,accountPassword,accountCity,accountState]) // used to print multiple variables in tabular structure
+// console.table([accountId,accountEmail,accountPassword,accountCity,accountState]) // used to print multiple variables in tabular structure
 
 /*
   prefer not to use var
@@ -20,3 +20,11 @@ console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
   Variables declared with the var keyword cannot have block scope and they can be declared inside a { } 
   block and can be accessed from outside the block.
  */
+
+var carName = "Volvo";
+var carName;
+console.log(carName);
+  // If you re-declare a JavaScript variable declared with var, it will not lose its value.
+// The variable carName will still have the value "Volvo" after the execution of these statements:
+
+// you cannot re-declare a variable declared with let or const.

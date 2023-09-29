@@ -24,3 +24,13 @@ let state=null
 console.log(typeof "Gaurav");
 console.log(typeof undefined) ; // output is undefined
 console.log(typeof null); // null is an object
+
+
+// Object:
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
