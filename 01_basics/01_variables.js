@@ -8,7 +8,7 @@ accountEmail="gaurav.shelke20@pccoepune.org"
 accountPassword="VWXYZ@123"
 accountCity="Mumbai" // in this way without mentionig let ,var and const we can declare varioable 
 // in javascript // it is not recommended
-let accountState; // no value is unsigned // so prints undefinec
+let accountState; // no value is asssigned // so prints undefined
 // console.log(accountId);
 
 // console.table([accountId,accountEmail,accountPassword,accountCity,accountState]) // used to print multiple variables in tabular structure
