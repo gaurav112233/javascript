@@ -66,6 +66,6 @@
 
 // === strict check
 // it check value as well as datatypes
-console.log("02"===1);// -> false
+console.log("01"===1);// -> false
 
 // JavaScript evaluates expressions from left to right. 
