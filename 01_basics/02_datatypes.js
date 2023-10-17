@@ -1,4 +1,4 @@
-"use strict";  // treat all JS code as newer version
+"use strict";  // treat all JS code as newer version of JS
 
 // alert(3+4) // will give an error // as we are using in nodejs not in browser
 
@@ -9,7 +9,7 @@ console.log(3
 let name="Gaurav" // string
 let age=23 // number
 let isLoggeddin=true // boolean
-let state=null
+let state=null  // 
 
 
 // primitive datatypes
@@ -17,7 +17,7 @@ let state=null
 // bigint
 // string=""// single or double quote
 // boolean true or false
-// null -> standalone value  // some error value is not gotten so null
+// null -> standalone value  // some error value is not gotten so null // temperatute aaya hi nhi he 
 // undefined -> abhi value assigned nahi hui hain
 // symbol -> unique
 
@@ -34,4 +34,10 @@ const cars = ["Saab", "Volvo", "BMW"];
 
 // Date object:
 const date = new Date("2022-03-25");
+
+
+// website for references
+
+// https://tc39.es/ecma262/#sec-intro
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
