@@ -53,3 +53,6 @@ console.log("C",myArr);
 // splice changes the orginal array it removes the selected elemnts from array
 
 
+
+
+
