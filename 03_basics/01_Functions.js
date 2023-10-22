@@ -43,4 +43,40 @@ function loginUserMessage(username="sam") //default value
 let print=loginUserMessage("Gaurav");
 // console.log(print);
 
-console.log(loginUserMessage()); // It returns undefined 
+// console.log(loginUserMessage()); // It returns undefined 
+
+
+// when we don't know how much parametere are there
+// using (...)Rest operator
+function calculateCartPrice(...num1)
+{
+ return num1;
+}
+
+// console.log(calculateCartPrice(200,400,500,2000));
+
+
+const user={
+    username:"gaurav",
+    price:199
+}
+
+// handling object in function
+function handleObject(anyObject)
+{
+    console.log(`Username is ${anyObject.username} and its price is ${anyObject.price}`);
+}
+handleObject(user);
+handleObject({
+    username:"Hitesh",
+    price:2000
+})
+
+// Handling Array in function
+const myArray=[10,20,40,50];
+
+function returnsecondValue(myArray)
+{
+    return myArray[1];
+}
+console.log(returnsecondValue(myArray));
