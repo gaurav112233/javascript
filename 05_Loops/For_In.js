@@ -35,3 +35,6 @@ for (const index in arr)
 for (const index in arr) {
     console.log(`${index} : ${arr[index]}`);
 }
+
+// map can't be traverse using forin loop
+
